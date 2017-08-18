@@ -1,0 +1,85 @@
+﻿enrollments.csv:
+
+数据分析纳米学位学员中，完成了第一个项目的学员的一个随机子集的数据，以及没有完成第一个项目的学员的一个随机子集的数据。
+
+字段：
+   - account_key:    学员账号的唯一标识符（unique identifier）。
+
+    - status:   收集数据时，学员课程状态的数据，可能的值为“已取消”（'canceled'）和“学习中”（'current'）。
+
+    - join_date:     学员加入课程的时间。
+
+    - cancel_date:    学员取消的时间，如果学员没有取消则显示空。
+
+    - days_to_cancel: 加入课程时间和取消时间之间间隔的天数，如果学员没有取消就显示空。
+
+    - is_udacity:  如果是优达学城官方的测试账号，就显示 True，如果不是，显示 False。
+
+    - is_canceled:    如果收集数据时，学员已经取消，就显示 True，如果还没有取消，显示 False。
+
+-------------------------------------------------------------------------------
+
+daily_engagement.csv:
+
+报名注册表中每一位学生，在数据分析纳米学位的日常参与学习数据。即使当天没有参与学习，也留有记录。还包含纳米学位的支持课程的参与学习数据，以及相应的具有相同内容的免费课程的参与学习数据。
+
+字段：
+    - acct:          学员账号的唯一标识符，这是他们参与学习的数据。
+
+    - utc_date:      收集数据的日期。
+
+    - num_courses_visited:   这一天里，学生访问数据分析纳米学位课程的数量（访问时间至少 2 分钟）。纳米学位课程和免费课程，如果内容相同，也需要分开考虑。
+
+    - total_minutes_visited: 在这一天，学生学习数据分析纳米学位课程的总时间（分钟）。
+
+    - lessons_completed:     在这一天，学生访问的数据分析纳米学位中的课程总数。
+                         
+    - projects_completed:    在这一天，学生完成的数据分析纳米学位中的项目总数。
+
+-------------------------------------------------------------------------------
+
+project_submissions.csv:
+
+关于在报名注册表中的每个学生提交数据分析纳米学位项目的数据。
+
+字段:
+    - creation_date:    项目提交的日期。
+
+    - completion_date:  项目被评估的日期。
+
+    - assigned_rating:  这个字段有4个可能的值:
+                        blank - 项目没有被评估。
+                        INCOMPLETE - 项目不符合要求。
+                        PASSED - 项目符合要求。
+                        DISTINCTION – 项目超出要求。
+                        UNGRADED – 项目无法被评估。（例如：包括损坏的文件）
+                                    
+    - account_key:      提交了该项目的学生账号的唯一标识符。
+
+    - lesson_key:       提交了项目的唯一标识符。
+
+    - processing_state: 这个字段可能有2个可能的值:
+                        CREATED - 项目已提交但没有被评估。
+                        EVALUATED – 项目已经被评估。
+
+-------------------------------------------------------------------------------
+
+daily_engagement_full.csv:
+
+与 daily_engagement.csv 类似，但是进一步细分课程和更多可以用的字段。这个文件大概是 500M，我们我们提供了体积更小的 daily_engagement.csv。这个数据集是可选的，不是完成这个作业所必需的。
+
+除了下面的这些字段，这个文件包括 daily_engagement.csv 中的所有字段，但是用 has_visited 代替了 num_courses_visited。
+
+字段:
+    - registration_date:  账号的注册时间。
+
+    - subscription_start: 账号开始付费的时间。
+
+    - course_key:         有学习记录的课程。
+
+    - sibling_key:        和 course_key 课程内容相同的免费课程。如果 course_key 就是免费课程，course_key 和 sibling_key 是一样的。
+
+    - course_title:       课程名称。
+
+    - has_visited:        如果学员在这一天访问课程至少2分钟，则为 1。
+
