@@ -22,5 +22,5 @@
 
 **3. 如何同时安装Python3和Python2？**
 
-Conda支持多安装多环境，具体操作方式见[此链接](https://conda.io/docs/py2or3.html)
+Conda支持安装多个Python环境，具体操作方式见[此链接](https://conda.io/docs/py2or3.html)
 
