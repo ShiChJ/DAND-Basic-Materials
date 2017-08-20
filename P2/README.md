@@ -24,3 +24,11 @@
 
 Conda支持安装多个Python环境，具体操作方式见[此链接](https://conda.io/docs/py2or3.html)
 
+**4. 命令行是什么？如何在命令行转换目录？**
+
+由于命令行不是本课程的教学内容，所有命令行相关的疑问均请参见[此链接](https://blog.henix.info/blog/windows-cmdbasic/_.html)
+
+**5. Titanic数据集各字段的含义。**
+
+请参阅此[数据字典链接](https://www.kaggle.com/c/titanic/data)
+
