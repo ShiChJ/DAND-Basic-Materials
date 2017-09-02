@@ -24,11 +24,27 @@
 
 Conda支持安装多个Python环境，具体操作方式见[此链接](https://conda.io/docs/py2or3.html)
 
-**4. 命令行是什么？如何在命令行转换目录？**
+**4. 为什么装了多个环境，Jupyter Notebook还是只能使用一个版本的Python？**
+
+请检查你是否在所有环境中安装了Jupyter Notebook，具体方式如下：
+
+1. 打开Anaconda Navigator
+ ![](https://i.imgur.com/xHULooG.png)
+
+2. 在Navigator中做如下操作
+ ![](https://i.imgur.com/6vi81LS.png)
+
+3. 重新打开Notebook，即可使用两个版本的环境
+
+
+**5. 命令行是什么？如何在命令行转换目录？**
 
 由于命令行不是本课程的教学内容，所有命令行相关的疑问均请参见[此链接](https://blog.henix.info/blog/windows-cmdbasic/_.html)
 
-**5. Titanic数据集各字段的含义。**
+**6. Titanic数据集各字段的含义。**
 
 请参阅此[数据字典链接](https://www.kaggle.com/c/titanic/data)
+
+**7. 为什么我
+
 
