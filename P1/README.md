@@ -26,3 +26,8 @@
 **4. 拒绝域（Rejection Region/Critical Region）和接受域（Region of Acceptance）**
 
 请参考[此链接](http://www.afenxi.com/post/23528)
+
+**5. 如何用Excel画直方图？**
+
+请参考[此链接](http://blog.csdn.net/zhanghongju/article/details/18445591)
+
