@@ -31,3 +31,6 @@
 
 请参考[此链接](http://blog.csdn.net/zhanghongju/article/details/18445591)
 
+**6. 查找z/t统计量的条件超出了z/t表格的范围怎么办？**
+
+请参考[此链接](https://www.graphpad.com/quickcalcs/distMenu/)
