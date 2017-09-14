@@ -79,7 +79,7 @@
 
 **4. 能否申请延期？**
 
-可以。请点击[此链接](https://udacity-cn.zendesk.com/hc/zh-cn/requests/new)申请延期。延期时间不超过6个月。
+请点击[此链接](https://udacity-cn.zendesk.com/hc/zh-cn/requests/new)发送工单，工作人员会处理延期相关事宜。
 
 **5. XX 文件无法下载**
 
