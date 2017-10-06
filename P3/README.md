@@ -14,7 +14,7 @@
 
 **2. 如何进行数据预处理，将Genres等分成多列？**
 
-请参阅[此链接](http://onlinehelp.tableau.com/current/pro/desktop/en-us/buildmanual_shelves_pages.html)
+请参阅[此链接](http://discussions.youdaxue.com/t/tableau/42153/4)
 
 **3. Revenue/Budget有0值，如何处理？**
 
