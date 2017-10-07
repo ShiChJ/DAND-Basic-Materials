@@ -49,14 +49,19 @@ Conda支持安装多个Python环境，具体操作方式见[此链接](https://c
 
 - 检查系统版本。Anaconda已经不支持Windows XP；同时查看自己电脑是32位还是64位（本页面视频有说明），不要装错了；
 - 检查自己是否原来安装过Python，如果安装过请彻底删除Python（同时要删除环境变量）后重装Anaconda；
-- 检查自己是否将Conda命令添加到了环境变量，操作方法见[本页面](https://stackoverflow.com/questions/28612500/why-anaconda-does-not-recognize-conda-command)
-- 确保你的Anaconda安装路径不包含中文；
+- 检查自己是否将Conda命令添加到了环境变量，操作方法见[本页面](https://stackoverflow.com/questions/28612500/why-anaconda-does-not-recognize-conda-command)；
+- 确保你的Anaconda安装路径不包含中文或其他非英语常用字符；
 - 经过以上步骤还是没有任何改善，请卸载Anaconda重装一遍；
 - 重装一遍后还是没有改善，说明助教也不知道原因，无法帮助你，所以不用在群里@助教了，直接使用微软出品的[Azure Notebook](https://notebooks.azure.com/)作为替代方案完成课程和项目。
 
 **8. Mac系统下无法安装matplotlib，提示“Failed building wheel for subprocess32”**
 
 安装[Xcode](https://developer.apple.com/xcode/)
+
+**9. 安装Anaconda时显示UnicodeDecodeError。**
+
+- 如果Python是2.7版本的，请确保安装路径没有中文或者其他非英语常用字符；
+- 如果安装路径不存在上述问题，请参考[此链接](http://www.cnblogs.com/kangronghu/p/6154919.html)解决。
 
 
 
