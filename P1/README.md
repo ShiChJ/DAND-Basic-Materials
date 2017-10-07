@@ -1,5 +1,7 @@
 # P1常见问题汇总
 
+[学员项目经验分享（Francis）](https://francismeng.wordpress.com/2017/10/06/dand001-projec1-review/)
+
 **1. 关于课程习题集的解析**
 
 请参看各Word文档的命名，如**25.9b[3,4].docx**。其中：
