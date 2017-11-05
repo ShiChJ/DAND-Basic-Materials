@@ -67,7 +67,11 @@ Conda支持安装多个Python环境，具体操作方式见[此链接](https://c
 
 1. 右键另存为，将文件存入任一文件夹；
 2. 更改文件夹后缀名为.ipynb。如果无法修改，请在文件管理器中勾选下图的“文件扩展名”，再对文件重命名，直接修改后缀。最终你的文件名为“xxxx.ipynb”
+
 ![](https://i.imgur.com/IYUCKqb.png)
+
+
+**11. 两个简明的[Anaconda](https://www.zhihu.com/question/58033789/answer/254673663)和[Jupyter Notebook](https://www.zhihu.com/question/46309360/answer/254638807)使用教程（感谢学员悟空和知乎用户“猴子”提供的链接及教程内容）**
 
 
 
