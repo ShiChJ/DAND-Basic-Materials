@@ -73,6 +73,39 @@ Conda支持安装多个Python环境，具体操作方式见[此链接](https://c
 
 **11. 两个简明的[Anaconda](https://www.zhihu.com/question/58033789/answer/254673663)和[Jupyter Notebook](https://www.zhihu.com/question/46309360/answer/254638807)使用教程（感谢学员悟空和知乎用户“猴子”提供的链接及教程内容）**
 
+**12. 在Jupyter Notebook中按Tab键无法自动补全代码。**
+
+请尝试安装pyreadline包，命令如下：
+
+```cmd
+conda install pyreadline
+```
+
+再打开Notebook重试补全代码功能。
+
+**13. 明明已经使用命令安装了某个包（比如Unicodecsv），在Notebook导入时却显示No module named XXX错误。**
+
+目前还没有根本性的解决办法，可能是环境变量的问题导致。一个可行的方案是创建新环境，并与Notebook关联，所有代码都在新环境中运行。具体步骤如下：
+
+假如你第一次安装Anaconda，系统会自动创建一个默认环境，Notebook中也只有默认环境。默认环境中包无法导入时，请尝试如下命令（假设你的Python版本为2.7）：
+
+```cmd
+
+conda create -n py27 python=2.7 anaconda #创建环境，py27可以是其他名称
+conda install nb_conda
+acitvate py27 #进入新环境
+conda install unicodecsv #在新环境中安装模块
+
+```
+
+然后再启动jupyter notebook，做如下操作：
+
+![](https://i.imgur.com/hb1iqv0.png)
+
+点击Python [conda env: py27]，切换到py27环境，再运行代码看下能否导入模块。
+
+请注意，以后进入所有notebook的时候，都需要切换到py27环境。你安装所有包时，都需要先使用activate py27命令，在新环境中安装。
+
 
 
 
