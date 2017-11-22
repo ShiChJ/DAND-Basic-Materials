@@ -106,6 +106,11 @@ conda install unicodecsv #在新环境中安装模块
 
 请注意，以后进入所有notebook的时候，都需要切换到py27环境。你安装所有包时，都需要先使用activate py27命令，在新环境中安装。
 
+**14. 没有任何Python基础，如何准备项目2的课程内容？**
+
+- 建议先修Udacity的[计算机科学导论](https://cn.udacity.com/course/intro-to-computer-science--cs101)
+- 入门书：[《Python编程快速上手 : 让繁琐工作自动化》](https://book.douban.com/subject/26836700/)
+
 
 
 
