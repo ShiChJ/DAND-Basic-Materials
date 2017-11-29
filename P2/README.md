@@ -111,6 +111,16 @@ conda install unicodecsv #在新环境中安装模块
 - 建议先修Udacity的[计算机科学导论](https://cn.udacity.com/course/intro-to-computer-science--cs101)
 - 入门书：[《Python编程快速上手 : 让繁琐工作自动化》](https://book.douban.com/subject/26836700/)
 
+**15. 在Mac环境下运行Jupyter Notebook报如下错误：**
+
+![](https://i.imgur.com/z5IRAeV.jpg)
+
+解决办法：使用此命令启动Jupyter Notebook：
+
+```cmd
+jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
+```
+
 
 
 
