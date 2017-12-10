@@ -121,6 +121,12 @@ conda install unicodecsv #在新环境中安装模块
 jupyter notebook --NotebookApp.iopub_data_rate_limit=10000000000
 ```
 
+**16. 运行Conda命令时出现“Missing write permissions”错误：**
+
+请使用如下方式打开Anaconda Prompt，再次运行Conda命令：
+
+![](https://i.imgur.com/V5HdRn2.png)
+
 
 
 
